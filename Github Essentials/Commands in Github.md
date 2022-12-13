@@ -54,3 +54,17 @@ git branch -b "branch name"
 the above code will create a branch and the same time checkout to that branch
 
 ```
+
+## SSH key better than http
+on the terminal type
+```git
+ssh-keygen
+```
+on the display press enter key until the terminal return with a string of matrix offsets, locate the folder describe via the local directory, open the file and copy the ssh key with the publisher logo.
+go to your github, click on settings.
+locate ssh key 
+clidk new
+paste the key and add a name to it (optional)
+save it
+now clone your remote repo to your system using the url and not http
+with this you will be pushing to github with no prompt for password

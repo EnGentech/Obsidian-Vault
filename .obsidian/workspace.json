@@ -213,7 +213,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/Commands in Github.md",
                 "mode": "source",
                 "source": false
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/Commands in Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -327,7 +327,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/Commands in Github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -350,7 +350,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c_language/Personal Study on C.md"
+                "file": "Github Essentials/Commands in Github.md"
               }
             }
           }
@@ -363,8 +363,8 @@
   },
   "active": "82e768134744d6a6",
   "lastOpenFiles": [
-    "c_language/Introduction note.md",
     "c_language/Personal Study on C.md",
+    "c_language/Introduction note.md",
     "ALX materials/ALX materials.md",
     "2022-12-12.md",
     "Github Essentials/Commands in Github.md",
