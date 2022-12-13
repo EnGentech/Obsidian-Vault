@@ -1,0 +1,1 @@
+[https://miktex.org/download](https://miktex.org/download) this application is neccesary for the use of obsidians

@@ -1,0 +1,377 @@
+{
+  "main": {
+    "id": "0e6a52730b34ac5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fc08c9eae8c3a25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53a491e7d6466bcb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e6079b3a1842e99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Links to python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c9d9342b7679230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Checks in/Learn more.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec1e5e9e6fb04ac7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Najib guide/Pandoc and conversion commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42dfae6bf99445ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Introduction note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "306868ee45db9934",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Links to C language.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c22fd9939ab6c59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Essentials/Commands in Github.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "978085e5630c9688",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Essentials/Commands in Github.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "577fbf20627093f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALX materials/Bash notes (commands).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d83c78d461884117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Essentials/Commands in Github.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "597a096a2b702daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture on CTE 114/Plagiarism.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8ef477cbfbd85e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Introduction note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8223db6661744b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Chron jobs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "055e15392f85fee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Web dev. front and back end.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f4293c0309f4887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Ai link.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f339af1c2ab648a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Introduction note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a6f97a4fbd8eb64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Introduction note.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82e768134744d6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Personal Study on C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64ebc504f6f36be4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Najib guide/Key to success in software engineering.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5986740a7fc9edab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Github Essentials/Commands in Github.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 17
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7149f9454c90738",
+    "type": "split",
+    "children": [
+      {
+        "id": "3152092122e4ce12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97ad1bf0830bbfee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "21377907cb35469d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0006dd083f8fddc8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f391edb6b5a3a894",
+    "type": "split",
+    "children": [
+      {
+        "id": "28683cceab6c3177",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "200178fb836d0a21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "c_language/Personal Study on C.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef02a3e0b3b4a455",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "c_language/Personal Study on C.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6636ea2f8a7bca68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "22c35e2b7514cf92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "c_language/Personal Study on C.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "82e768134744d6a6",
+  "lastOpenFiles": [
+    "c_language/Introduction note.md",
+    "c_language/Personal Study on C.md",
+    "ALX materials/ALX materials.md",
+    "2022-12-12.md",
+    "Github Essentials/Commands in Github.md",
+    "Web links/Web dev. front and back end.md",
+    "Web links/Shell programming links.md",
+    "Web links/Links to python.md",
+    "Web links/Links to C language.md",
+    "Web links/Java Script.md"
+  ]
+}

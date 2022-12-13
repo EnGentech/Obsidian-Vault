@@ -1,0 +1,12 @@
+* cd
+* ls
+* pwd
+* less
+* file
+* help
+* man
+* type
+* mkdir
+* ln
+* touch
+* cat
