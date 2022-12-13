@@ -127,12 +127,8 @@
             "id": "597a096a2b702daf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lecture on CTE 114/Plagiarism.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -361,7 +357,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "82e768134744d6a6",
+  "active": "97ad1bf0830bbfee",
   "lastOpenFiles": [
     "c_language/Personal Study on C.md",
     "c_language/Introduction note.md",
