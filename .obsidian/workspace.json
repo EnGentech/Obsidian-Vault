@@ -11,8 +11,24 @@
             "id": "53a491e7d6466bcb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Personal Study on C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80af236bce179f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_language/Personal Study on C.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -240,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Essentials/Commands in Github.md",
+                "file": "c_language/Personal Study on C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Essentials/Commands in Github.md",
+                "file": "c_language/Personal Study on C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -346,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Essentials/Commands in Github.md"
+                "file": "c_language/Personal Study on C.md"
               }
             }
           }
@@ -357,17 +373,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97ad1bf0830bbfee",
+  "active": "80af236bce179f88",
   "lastOpenFiles": [
+    "Emacs/Emacs short-cut keys.md",
+    "Untitled.md",
     "c_language/Personal Study on C.md",
+    "Github Essentials/Commands in Github.md",
     "c_language/Introduction note.md",
     "ALX materials/ALX materials.md",
     "2022-12-12.md",
-    "Github Essentials/Commands in Github.md",
     "Web links/Web dev. front and back end.md",
     "Web links/Shell programming links.md",
-    "Web links/Links to python.md",
-    "Web links/Links to C language.md",
-    "Web links/Java Script.md"
+    "Web links/Links to python.md"
   ]
 }

@@ -580,3 +580,302 @@ printf("%d",i++)
 
 }
 ```
+
+```c
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	char put[8] = "_putchar";
+	int i;
+	for(i = 0; put[i]; i++)
+	{
+		putchar(put[i]);
+	}
+putchar('\n');
+return (0);
+}
+
+# the above program will print _putchar on the screen, however, the _putchar will be printed in characters per time since we are using the putchar keyword
+```
+
+highest number
+```c
+#include "main.h"
+
+/**
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
+ */
+
+int largest_number(int a, int b, int c)
+{
+int largest;
+
+if (a > b && a > c)
+{
+largest = a;
+}
+else if (b > a && b > c)
+{
+largest = b;
+}
+else
+{
+largest = c;
+}
+
+return (largest);
+}
+
+
+# OR
+
+
+#include "main.h"
+
+/**
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
+ */
+
+int largest_number(int a, int b, int c)
+{
+int largest = (a > b) ? a : b;
+
+largest = (largest > c) ? largest : c;
+
+return (largest);
+}
+```
+
+## Validate remaining days of the year
+```c
+#include <stdio.h>
+#include <stdbool.h>
+
+// Function to check if a year is leap or not
+bool isLeapYear(int year)
+{
+    // A year is a leap year if it is divisible by 4
+    // but not by 100, or if it is divisible by 400
+    return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+}
+
+int main()
+{
+    // Input year
+    int year = 2000;
+
+    // Input month and day
+    int month = 2;
+    int day = 9;
+
+    // Check if year is a leap year
+    bool leap = isLeapYear(year);
+
+    // Total number of days in the given year
+    int totalDays = leap ? 366 : 365;
+
+    // Calculate the number of days passed so far in the year
+    int daysPassed = 0;
+
+    // Days in each month
+    int daysInMonth[] = {31, leap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+    // Loop through each month before the given month and add the days in it
+    for (int i = 0; i < month - 1; i++)
+    {
+        daysPassed += daysInMonth[i];
+    }
+
+    // Add the number of days in the given month
+    daysPassed += day;
+
+    // Calculate the number of days remaining in the year
+    int daysRemaining = totalDays - daysPassed;
+
+    printf("There are %d days remaining in the year %d", daysRemaining, year);
+
+    return 0;
+}
+```
+or
+```c
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * print_remaining_days - takes a date and prints how many days are
+ * left in the year, taking leap years into account
+ * @month: month in number format
+ * @day: day of month
+ * @year: year
+ * Return: void
+ */
+
+void print_remaining_days(int month, int day, int year)
+{
+if ((year % 4 == 0 && year % 100 != 0) || (year % 4 == 0))
+{
+if (month > 2 && day >= 60)
+{
+day++;
+}
+
+printf("Day of the year: %d\n", day);
+printf("Remaining days: %d\n", 366 - day);
+}
+else
+{
+if (month == 2 && day == 60)
+{
+printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+}
+else
+{
+printf("Day of the year: %d\n", day);
+printf("Remaining days: %d\n", 365 - day);
+}
+}
+}
+
+
+```
+
+## Using putchar to print 1 to 14 was not easy
+```c
+#include "main.h"
+
+/**
+
+* more_numbers - print 0 to 14 ten times
+
+*
+
+* Return: always 0 (Success)
+
+*/
+
+void more_numbers(void)
+
+{
+
+int i;
+
+int j;
+
+for (i = 0; i <= 9; i++)
+
+{
+
+for (j = 0; j <= 14; j++)
+
+{
+
+if (j > 9)
+
+{
+
+_putchar((j / 10) + '0');
+
+}
+
+_putchar((j % 10) + '0');
+
+}
+
+_putchar('\n');
+
+}
+
+}
+```
+## Nested Do while loop
+```c
+do 
+{
+	outer loop statement block
+	do
+	{
+		inner loop statement block
+	}
+	outer loop statement block
+}
+```
+example
+```c
+int i = 1, j = 3;
+do 
+{
+	do
+	{
+		printf("%d", j);
+		j--;
+	}while (j > 0);
+	i++;
+	print("%d", i);
+}while(i < 4);
+```
+
+# Array in C
+syntax for declaring aray
+datatype variable_name[size of array]
+Note that all values to be stored should be of the same data type
+At compile time
+```c
+int a[5]
+int a[] = {4,5,34,2,3,5}
+int a[4] = {0}
+int a[2 + 4]
+int a[N] //where the N is not a variable but rather a macro
+```
+At run time
+```c
+int i;
+int a[5];
+printf("enter element for array);
+	   for(i = 0; i < 5; i++)
+	   {
+		   scanf("%d", &a[i]);
+	   }
+```
+
+an intance of a multitudinous array, the bellow can be used
+```c
+int a[100], i;
+for (i = 0; i < 100; i++)
+{
+	if(i < 30);
+		 a[i] = 1;
+	else
+		a[i] = 0;
+}
+	//the above explain on 1-D array
+```
+
+lets take in values and print same using array
+```c
+void main()
+int a[5], i;
+for (i = 0; i < 5; i++)
+{
+	scanf("%d", &a[i]);
+}
+for (i = 0; i < 5; i++)
+{
+	printf("%d", a[i]);
+}
+```

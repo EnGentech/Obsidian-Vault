@@ -1,7 +1,7 @@
 ```git
 git config -l
 
-git config --global remote.origin.url "https://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@github.com/EnGentech/alx-pre_course.git"
+git config --global remote.origin.url "https://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@github.com/EnGentech/alx-pre_course.git"
 ```
 the above list all the configuration of the github
 
