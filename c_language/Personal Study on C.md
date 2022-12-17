@@ -879,3 +879,173 @@ for (i = 0; i < 5; i++)
 	printf("%d", a[i]);
 }
 ```
+write a program to read an array of 10 integers and count the total number of even and odd numbers
+```c
+void main()
+{
+int a[10]; n;
+int even = 0, off = 0;
+for (n = 0; n < 10; n++)
+{
+scanf("%d", &a[n]);
+}
+for (n = 0; n < 10; n++)
+{
+if (a[i]%2 == 0)
+even += 1;
+else
+odd += 1;
+}
+	print("even number = %d", even);
+	print("Odd number = %d", odd);
+}
+```
+
+Write a program to read two array of 5 variables and store the sum of the array in a third array. the last array should have the result of the first two arrays.
+
+| 1   | 5   | 7   | 9   | 3   |
+| --- | --- | --- | --- | --- |
+| 3   | 8   | 2   | 8   | 2   |
+| add | add | add | add | add | 
+```c
+void main()
+{
+inf arr1[5], arr2[5], sumarr[5];
+int i;
+for (i = 0; i < 5; i++)
+	scanf("%d", arr1[i]);
+for (i = 0; i < 5; i++)
+	scanf ("%d", arr2[i]);
+for (i = 0; i < 5; i++)
+{
+sumarr[i] = arr1[1] + arr2[i];
+printf("sum of array of at index %d is %d\n", i, sumarr[i]);
+}
+}
+```
+
+## 2-D Array
+One dimensional array stores multiple columns to a single row, assuming a mark for 60 students, then one variable can be used to print out the values using an array however, in the situation where marks is needed to be distrubuted accross 5 subjects i.e marks_sub1[60], marks_sub2[60] etc
+that could be time consuming and memory complexity, hence we can declare thus
+```c
+int marks[5][60]
+
+```
+the above will give us 5 rows to 5 colums. we could also have a multidimentional array, lets say a school of 3 departments offering 5 courses with a maximum number of 60 students, that will become 
+```c
+int marks[3][5][60]
+```
+syntaxs
+```c
+datatype [size of rows][size of column]
+```
+the two dimensional array is mostly used in a matrix like evaluation. though we represent the concept of 2-D array in a matrix format, it is not represented thus in the computer memory since it stores its data in sequence. 
+
+Lets use the table below to illustrate 
+
+| 0,0 | 0,1 | 0,2 |
+| --- | --- | --- |
+| 1,0 | 1,1 | 1,2 | 
+
+Looking at the values above, it is clar that we can store 15 elements (3 x5);
+therefore the allocated memory space will be 60bytes since the integer stores in 4 bytes, hence 15 elements x 4 = 60bytes memory allocation
+
+In addition to the above, clarify the above, we could have something like 
+```c
+int a[2][3] = {{0,5,2}, {5,3,8}}
+
+or
+
+int a[2][3] = {
+				{4,6,1}
+				{2,8,1}
+			}
+```
+The curly braces is also used to explicitly specify, values in the array e.g
+```c
+int x[2][3] = {{3,2},{1,0}}
+```
+In that case, the values will be initialized as seen below. the first two values will ocupy row1 and the second will ocupy row two, however, the remaining part without values will be filled up with 0 value.
+In addition, if you have initializtion of 
+```c
+int x[][3] = {0,0,0}
+
+or
+
+int x[][0] = {0}
+```
+the above will render teh array all 0's
+
+Runtime
+```c
+int a[2][3];
+int x, y;
+for (x = 0; x < 2; x++)
+{
+	for (y = 0; y < 3; y++)
+	{
+		scanf("%d", &a[x][y]);
+	}
+}
+```
+
+find out elements that float can store and its seize if only float can be used in the aspect 
+```c
+float a[2][7]
+```
+
+Meanwhile, memory representation of 2-D array as described above is only but for human consumption as it is not defined thus in the computr memory allocation rather is is arranged in a straight manner having its divisions in colums as seen below
+| 0   | 0   | 0   | 1   | 1   | 1   |
+| --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |
+where the first three values represents the first row, and the second represents the second row
+
+To access values in the array, you use the matrix formation
+```c
+variablename[row][column]
+example a[2][1]
+```
+
+### Transpose of a matrix using 2 dimentional array
+```c
+int a[2][3], j, i;
+for (i=o; i<2,i++)
+	{
+	for (j = 0; j < 3; j++)
+		{
+			scanf("%d", &[i][j]);
+		}
+	}
+for (i = 0; i < 3; i++)
+	{
+	for (j = 0; j < 2; j++)
+	{
+		printf("%d\t", a[j][i]);
+	}
+	}
+
+```
+
+## Printing the sum of indidual rows and colums considering a 3 by 3 matrixs
+```c
+int a[3][3], i, j, sr, sc;
+for (i = 0; i < 3. i++)
+	{
+	for (j = 0; j < 3; j++)
+		{
+			scanf("%d", &a[i][j]);
+			
+		}
+	}
+for (i = 0; i < 3; i++)
+	{
+	 sr=sc=0;
+	for (j = 0; j < 3; j++)
+	{
+		sr += a[i][j];
+		sc += a[j][i];
+	}
+	printf("sr = %d, sc = %d", sr,sc);
+	}
+
+```
