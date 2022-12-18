@@ -1141,3 +1141,5 @@ for (i = 0; i < 3; i++)
 }
 ```
 download jenny's video on multiplication of matrics for more clarity. found on video 60 or less
+
+## Strings
