@@ -1049,3 +1049,95 @@ for (i = 0; i < 3; i++)
 	}
 
 ```
+## A program to sum to matrices i.e 2 by 3 matrices
+```c
+#include <stdio.h>
+
+void main()
+{
+int ar1[2][3], ar2[2][3]; 
+  int i, j, sum[2][3]={0};
+
+  printf("Please enter values for first matricx\n");
+for (i = 0; i < 2; i++)
+  {
+    for (j = 0; j < 3; j++)
+      {
+        scanf("%d", &ar1[i][j]);
+      }
+  }
+
+   printf("Please enter values for second matricx\n");
+for (i = 0; i < 2; i++)
+  {
+    for (j = 0; j < 3; j++)
+      {
+        scanf("%d", &ar2[i][j]);
+      }
+    
+  }
+
+//sum of the two matrices
+  
+for (i = 0; i < 2; i++)
+  {
+    for (j = 0; j < 3; j++)
+      {
+        sum[i][j] = ar1[i][j] + ar2[i][j];
+        printf("%d\t",sum[i][j]);
+      }
+    putchar('\n');
+  }
+  
+}
+```
+
+### Product of a 3x3 matrics
+```c
+#include <stdio.h>
+
+void main()
+{
+int ar1[3][3], ar2[3][3]; 
+  int i, j, k, sum, mul[3][3];
+
+  printf("Please enter values for first matricx\n");
+for (i = 0; i < 3; i++)
+  {
+    for (j = 0; j < 3; j++)
+      {
+        scanf("%d", &ar1[i][j]);
+      }
+  }
+
+   printf("Please enter values for second matricx\n");
+for (i = 0; i < 3; i++)
+  {
+    for (j = 0; j < 3; j++)
+      {
+        scanf("%d", &ar2[i][j]);
+      }
+    
+  }
+
+//mul of the two matrices
+  
+for (i = 0; i < 3; i++)
+  {
+    
+    for (j = 0; j < 3; j++)
+          {
+             sum = 0;
+        for (k = 0; k < 3; k++)
+          {
+             sum += ar1[i][k] * ar2[k][j];
+            mul[i][j] = sum;
+         }
+            printf("%d\t", mul[i][j]);
+      }
+    putchar('\n');
+  }
+  
+}
+```
+download jenny's video on multiplication of matrics for more clarity. found on video 60 or less
