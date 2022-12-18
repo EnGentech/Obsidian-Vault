@@ -1143,3 +1143,314 @@ for (i = 0; i < 3; i++)
 download jenny's video on multiplication of matrics for more clarity. found on video 60 or less
 
 ## Strings
+strings simply means an array of character
+array can take any data type but strings can take only character data type
+e.g
+```c
+char name[10];
+```
+array is considered as an internal pointer
+a string ends with a nul character in the memory \\0
+A string is also seen as a one dimentional character array
+delcaring string in c is equivalent to 1 d array
+```c
+char name[] = "EnGentech Lectures"
+char name[] = {'E','n','G','e','n','t','e','c','h'}
+```
+note that the below declaration of string is not allow in c
+```c
+char name[];
+name = "EnGentech"
+
+char name[] = "EnGentech"
+char snam[] = "Learning"
+si = sname[]
+```
+when you wirte a sting in c, you are not passing an addres operator "&" because we dont use a certain location for the value instead we use the first address and the compiler will automatically adjust the value of the end to fit in other values using the format specifier %s in the sample below
+```c
+char name[];
+scanf("%s", name);
+printf("%s", name);
+```
+Note that scanf character will not consider a white space character within the string because it sees the white space character as a null value, hence after the null character exits, it will consider all other values as a gabbage character. e.g
+```c
+EnGentech Lectures
+```
+Using scanf to get the above name will result in printing only EnGentech with no lecutres due to the white space character provided.
+
+To resolve that, we use gets with no format specifier as shown below
+```c
+char name[30];
+printf("enter your name");
+gets(name);
+printf("%s", name);
+```
+
+Drawback of gets is buffer overflow, the same overflow is seen in scanf too
+what does that mean!
+
+lets assume you entered a limit string of 5 which implies that 4 characters should be inputted and the last should be null character
+```c
+char name[5]
+```
+using gets will overwrite the value of the buffer size hence it will not consider the specifiers value of 5 hence it will print all the characters 
+
+but the scanf can be limited using the format specifier e.g
+```c
+scanf("%4s", name);
+//that will enable only 4 characters to be taken from user input and this is known as hard coding
+```
+
+## Printf of  a string
+```c
+printf("%.5", name)
+printf("%10.5", name)
+
+// in the above, the .5 will print only 5 characters from the list of characters provided and in the second option, it will print 10 white space character before the 5 characters from the list of character provided
+```
+puts works just like the gets with no format specifier and it will automatically add a new line at the end of the srting
+
+one more thing
+if you have a code in the sample below, the program will print the values starting from the specified index. e.g
+```c
+printf("%s", &name[2])
+//assuming the name entered was EnGentech, the program will instead print Gentech, becasuse the addressd of index 2 is find G, then it will print from there
+```
+
+lets try a little program
+```c
+#include <stdio.h>
+int main()
+{
+char name[30] = "EnGentech";
+printf("%s", name);
+}
+```
+note that if you using a char literals, you must specify your null character e.g
+```c
+char name[10] = 'E','n','G','\0'
+```
+
+#### Find the length of string
+the predefined name is strlen in the header file string.h
+```c
+#inlude <string.h>
+int main()
+{
+unsigned int count = 0;
+char name[30];
+printf("Enter you name");
+gets(name);
+count = strlen(name);
+printt("String length is = %d", count);
+}
+```
+the strlen will return an unsinged integer because the length of a string can never be negative
+
+Lets assume we are to provide our user solution to count the string, the code below will solve that problem
+```c
+#include <stdio.h>
+{
+int main()
+int count = 0, i = 0;
+char name[30];
+print("Enter name");
+gets(name);
+while (name[i] != '\0')
+{
+	count++;
+	i++;
+}
+printf("%d", count);
+}
+```
+
+### Concatinating strings in C
+ the predifined function to concatinate strings in c is strcat
+ ```c
+ strcat(s1, s2)
+ //the s1 is the destination string and the other is the source string where the first agurment is always the destination string
+```
+the strcat has a drawback of buffer overflow, same as discussed above.
+
+the same code above can be written thus
+```c
+char s1[30] = "EnGentech";
+char s2[8] = "Lecture";
+len1 = strlen(s1);
+len2 = strlen(s2);
+for (i = 0; i <= len2; i++)
+{
+si[len1+i] = s2[i]
+}
+printf("%s", s1)
+```
+
+if you wish to concatenate a certain number of strings, the below command is used
+```c
+strncat(first string, second string, numb of characters);
+//e.g strncat(s1, s2, 5)
+```
+
+### comparing String in C
+the predifined command to compare string is strcmp and strncmp
+syntax
+```c
+strcmp(const char *str1, const char *str2)
+//the above code will return an integer value of either 0, +ve or -ve, lets analize that.
+// the value 0 is return when the compared strings are equal to each other, it will return positive value when the first character that does not match is greater in stirng on to the string two using ASCII values else the other is considered
+
+//e.g
+int value;
+char s1[] = "Hello";
+char s2[] = "World";
+value = strcmp(s1, s2);
+if (value == 0)
+{
+	 printf("The compared values are the same");
+}
+else
+{
+	printf("The compared strings are not the same");
+}
+
+```
+lets run the program manually
+```c
+int flag = 0;
+int i;
+char s1[] = "Hello";
+char s2[] = "Helli";
+for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+{
+	if (s1[i] != s2[i])
+	{
+		flag = 1;
+		break;
+	}
+	if (flag == 1)
+	printf("not same");
+}
+```
+### Reversing a string
+the predefined keyword is strrev but this keyword is likely no found in some of the c compilers
+syntax is written as
+```c
+strrev(s1)
+//where the s1 is the valuable tha hold the string
+```
+manually writing the program
+```c
+int l,i;
+char ch;
+char s1[30] = "EnGentech"
+l = strlen(s1)
+for (i = 0; i < l/2; i++)
+{
+	ch = s1[i];
+	s1[i] = s1[l-1-i];
+	s1[l-1-i] = ch
+}
+printf("%s", s1);
+```
+### Converting strings to lower case
+the value is strlwr or islower
+```c
+char s1[30] = "EnGentech"
+strlwr(s1)
+printf("%s", s1)
+
+//to uppsr is strupr or isupper
+
+```
+writing manually
+```c
+for (i = 0; s1[i] != '\0; i++)
+	 {
+	 if (s1[i]>='A' && s1[i]<="Z")
+		 {
+		 s[i] = s[i] + 32
+	 }
+	 printf("%s", s1);
+	 }
+//the value of 32 is added to the ASCII value a upper letter A hence to be converted to lower letter a and so on.
+	 ```
+
+# Pointers in C
+every variable has three things allocated to itself, the variable name, the value and the address. 
+Pointers are also a variable or spacial variable which contains the address of any other variable.
+we can also say that pointers are derived data types
+
+syntax
+```c
+datatype * pointer variable
+//the asterisk can be used either close to the pointer-name , data type or at the center
+e.g
+int *p
+//Note that the int does not specify the data type of p. rather it means that the pointer p is containing an address of a variable whose value is of integer data type
+
+//the size of pointer for a 32 bits machine is 2bytes
+```
+a pointer can be declared an initialized thus
+```c
+int *p = &a;
+int a = 10, *p = &a;
+//note that its not proper to declare a pointer before initializing a value
+int *p = &a, a = 10  // this is wrong
+```
+
+### Pointer Assignment
+```c
+int a = 10, b = 11;
+int *p, *q;
+p = &a
+printf("a = %d %d %d", a, *p, *q)
+```
+
+lets write a little program to illustrate tha above
+```c
+#include <stdio.h>
+void main()
+{
+	int a = 10, b = b;
+	int *p, *q;
+	p = &a;
+	q = p; 
+	printf(a = %d %d %d, a, *p *q);
+}
+```
+
+### Pointer to pointer or double pointer
+This means a pointer pointing to another pointer
+it is declared with two asterisk
+```c
+int a = 10;
+int *p = *p = &a;
+int **q = &p;
+//Note that a double asterisk cannot be used on a variable, it should be strictly used on a pointer variable
+```
+
+## Pointer Arithmetics
+A pointer addtion 
+```c
+p = p+1
+```
+that is not adding 1 to value of p but it is adding extra byte to the defined memory size and point to the next location of the memory location. If you call to print any value within this point, it will print a gabbage value since no value is assigned there.
+
+the pointer arithmetics is mostly used with the array concept
+lets assume the table below
+
+| 3   | 6   | 9   | 0   | 4   | 
+| --- | --- | --- | --- | --- |
+
+from the array above we have
+```c
+int a[5] = {3, 6, 9, 0, 4}
+int *p = &a[0]
+if you have a value like
+p = p + 2, 
+// hence the p will point to the value 9 bing the next two bytes of the address in memory. note that this is not possible within the variable name. e.g a + 2 will not work as that of the pointer
+// note that 
+p + 1 //this will not print anything as it is not equall to the p value exept you use the increment concept
+p++;
+```
