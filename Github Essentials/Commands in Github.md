@@ -68,3 +68,19 @@ paste the key and add a name to it (optional)
 save it
 now clone your remote repo to your system using the url and not http
 with this you will be pushing to github with no prompt for password
+
+## Confirm your ssh key in your repository in linux
+```git
+cat ~/.ssh/id_rsa.pub
+```
+
+if the key is not available, you can create one using the code below
+```git
+ssh-keygen -t rsa -f ~/.ssh/id_rsa
+```
+
+add this 
+```git
+git remote rm origin
+git remote add origin git@github.com:user/repo.git
+```
