@@ -1454,3 +1454,204 @@ p = p + 2,
 p + 1 //this will not print anything as it is not equall to the p value exept you use the increment concept
 p++;
 ```
+
+```c
+void main()
+{
+int a[] = {10, 11, -1, 56, 67, 5, 4}
+int *p, *q;
+p = a;
+printf("%d", *p);
+printf("%d %d %d\n", (*p)++, *p++, *++p);
+q = p + 3;
+printf("%d", *q - 3");
+printf("%d", * --p + 5);
+printf("%d", *p + *q);
+}
+```
+Note that *p + 1 implies that the value stored in the address should be imcreamented by 1 while the addres remains the same fro mthe above program but p + 1 incrase4s the memory address and hence points to the next address
+
+Assignment
+```c
+void main()
+{
+int a[] = {10, 11, -1, 56, 67, 5, 4};
+int *p, *q;
+p = a;
+q = &a[0];
+printf("%d %d %d", (*p)++, (*p)++, (*p)++, *(++p));
+printf("%d", *p);
+printf("%d",(*p)++);
+printf("%d",(*p)--);
+q--;
+printf("%d", (*(q + 2))--);
+printf("%d", *(q + 2) - 2);
+printf("%d", *(p++ -2) -1);
+
+}
+```
+
+Note that the data-type of a variable shoudl be the same with the pointer
+e.g
+```c
+void main()
+{
+int a = -1;
+int *p =a;
+
+const int b = 12;
+cont int *q = b;
+}
+```
+
+Lets evaluate the concept of pointers using the porgram below
+```c
+void main()
+{
+
+char str[] = "Welcome to EnGentech Lectures";
+char *ptr = str;
+printf("%c", *ptr);
+printf("%c\n", *(ptr++ 1));
+printf("%c\n", *((ptr-- +5) -1) +3);
+printf("%c\n", *(++ptr + 10) -35);
+printf("%c %c %c", *ptr, *++ptr, *--ptr)
+
+//Lets explain the above
+//In line one, the result will be W because the value is pointing to the first data
+//In the second line, the ptr++ will be executed first since it has a higher priority in arithmetic organogram compared to the plus sign. in addition we know that the ptr++ is a post increament. assuming the memory was arranged from 100 as discussed in previous documents, hence the pointer will be moved in one place forward, implying that it will take the next memory location, lets call it 101, hence it will return the value e.
+
+//for the third line, we solve from the inner value ptr--, this will decrement the pointer value one step backward, hence we will return to 100, however this is post increament implying that it will not be used immediately so the value remains 101 for the first time, added to the 5 (ptr-- +5), we are added 5 memory location to the value 101, hence we have 106, now we wil lhave (106 -1) + 3.   that will become *105 + 3.
+
+//Looking at the array above, the 105 meets with the letter (m) + 3, the 3 added to the pointer does not imply that the pointer will be shifted + 3 but rather the ascci value of m + 3 will be added, hence the result will become p.
+
+//the fourth line, we noted that the ptr at this point is having a pre-increament hence the value will be increamented and used. that will become 100 + 1 = 101 plus 10 will become 111, counting the value from the array will result to E, hence E ASCII value - 32 will give us the new value to be used.
+
+}
+```
+
+## void Pointers
+This means that the pointer is not having any associated data type. this implies that the pointer can be converted to any data type. it is declared as 
+```c
+void *vp;
+```
+it can be called a generic pointer
+lets assume the below
+```c
+int a
+float b
+char c
+void *vp
+
+//now you can point the pointer to any data type you prefer
+//e.g
+
+vp = &a;
+vp = &c;
+// now the vp pointer has been pointed to the integer data type
+```
+Note that you cannot dereferece a void pointer because the copiler may not be ascertain of the memory space allocated to the data type, hence to use the void pointer, you must perform casting  in the format below.
+```c
+printf("%d", *(int*)vp);
+printf("%d", *(char *)vp);
+```
+the importance of void pointer is applicable where there are variety of data type that needs pointers, hence  you can use a single pointer to cast 
+
+## Null pointer
+when you define a pointer without initializing it may result in printing gababe vaues, for instance 
+```c
+int *prt
+printf("%d", ptr)
+
+//printing the above will result in some characters unknown, a sort of gibridge values, hence to correct this problem, the NULL can be used to avoid printing gibrige values. as seen below
+
+int *prt = NULL or int *prt = 0;
+
+//with the above, the value returned will be 0, but note that you should not dereference a null pointer.
+
+//Null pointer is used in error handling in c language
+```
+
+## Dangling pointers
+```c
+int *ptr = (int *) mallooc (size of (int))
+//the above is allocating memory which will be discussed later, the memory size of int (4byte) is allocated to the pointer value ptr
+*ptr = 10;
+printf("%d", *ptr);
+
+free(ptr);
+
+//In the above expression, we have assigned a memory space to the pointer ptr, lets say that the pointer at level ptr is pointing to a certain memory and leter on, we dont need the memory again, we hence free the memory with the free command, now the memory is freed but the pointer still exist, that pointer is hence called dangling pointer, if we dereference the pointer, we hence might receive a sort of garbrige value or still crash the program depending on the inference of the memory and what the compiler reads.
+
+//An illustration is a case of you storing a phone number of your friend in your phone, now that phone number serves as a pointer to your friend at each time you call him or her, but lets assume your friend looses his number someday yet you still the number in your phone, if you call such number, we may not know what will become of the number. that is a life example of a dangling pointer.
+
+//Hence a dangling pointer is a pointer that points to a freed memory location.
+
+//Another code example to dangling is
+void ()
+{
+int *ptr;
+{
+	int a = 9;
+	ptr = &a;
+	printf("a = %d", *ptr)
+}
+printf("a = %d", *ptr)
+}
+
+//printing a outside the block will run into a dangling pointer because as soon as the control leaves the block, the a is no more visible as it was declared locally, however the pointer is still pointer to the address of a, hence it will become a dangling pointer. but for the mean time, it may print the correct output, however, in later times if the memory is allocated to another thing by the memory, it will return a false result.
+
+//the same thing happens if you declare a function that will return a value to a pointer, however if you declare the data type with static keyword, then the program wont run into dangling pointer
+
+e.g
+int static a
+```
+
+## Wild Pointers
+An uninitialised pointer is refered to as a wild pointer, you can use the null pointer to resolve this problem or you assign memory to the pointer seen below
+```c
+int *ptr = (int *)malloc(sizeof (int))
+
+// if you have something as seen below, 
+int *ptr;
+int a = 10;
+a = *ptr;
+
+//the first line is wild pointer
+```
+
+# Functions in C
+In c program or every other programming languages, functions are essential and productive, the printf, scanf, main are all function defined within the program in their respective header files to perform tasks. they are all called in-built function. 
+Users can also write their own function to perform user desired task, those are called user defined functions. e.g
+```c
+void main()
+{
+int a, b, sum = 0;
+printf("enter two numbers")
+scanf("%d %d", &a, &b);
+printf("sum = %d\n" a + b)
+}
+```
+that is a common program that we are aware of. but this program can only run and execute once, now take an instance of wishing to calculate same program for multiple times, then a function is needed.
+there are three aspects of a function in c
+1. Function declaration (or function prototype)
+2. Function call
+3. function execution
+Another name for function could be seen as sub or module.
+Hence a function is a piece of code that processes a specific task on routine call.
+e.g of a basic function program 
+```c
+#include <stdio.h>
+void sum()
+{
+	int a, b, sum=0;
+	printf("Enter two numbers:");
+	scanf("%d %d", &a,&b);
+	sum = a + b;
+	printf("Sum of a and b = %d", sum);
+}
+void main()
+{
+	sum()
+}
+```
