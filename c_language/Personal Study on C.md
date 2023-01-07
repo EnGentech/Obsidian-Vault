@@ -1655,3 +1655,77 @@ void main()
 	sum()
 }
 ```
+
+## Clarifications of Functions
+Functions are of 4 categories
+* No argument without return type
+* No argument with return type
+* with argument no return type
+* with argument with return type
+
+e.g for classification 1
+```c
+void fun()
+{
+statement;
+}
+
+or
+
+fun(void)
+{
+statement
+}
+
+# Example
+void sum(void)
+void main()
+{
+sum()
+}
+void sum()
+{
+int a = 5, b = 7, sum = 0;
+sum = a + b;
+printf(sum = %d", sum)
+}
+```
+Gate question 2000
+```c
+int incr(int i)
+{
+static int count = 0;
+count = count + i;
+return count;
+}
+main()
+{
+int i, j;
+for (i = 0; i <= 4; i++)
+j = incr(i);
+}
+```
+gate question 2016
+```c
+void f(int *p, int m)
+{
+m = m + 5;
+*p = *p + m;
+return;
+}
+void main()
+{
+int i = 5, j = 10;
+f(&i, j)
+printf("%d", i + j)
+}
+```
+Passing array as an argument
+```c
+int arg(int[])
+void main()
+{
+int marks[5] = {4, 6, 3, 67, 5}
+arg(marks)
+}
+```
