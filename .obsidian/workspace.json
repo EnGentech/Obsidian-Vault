@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/clonning github with ssh.md",
                 "mode": "source",
                 "source": false
               }
@@ -382,7 +382,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/clonning github with ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +399,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/clonning github with ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +422,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c_language/Personal Study on C.md"
+                "file": "Github Essentials/clonning github with ssh.md"
               }
             }
           }
@@ -446,13 +446,13 @@
   },
   "active": "c4b4535fe0692279",
   "lastOpenFiles": [
+    "Github Essentials/Commands in Github.md",
+    "Github Essentials/clonning github with ssh.md",
+    "Emacs/Emacs short-cut keys.md",
+    "c_language/Personal Study on C.md",
     "HTML CSS/Cool Web animation.md",
     "Study Code/KeyGen alx pointer code.md",
-    "c_language/Personal Study on C.md",
-    "Github Essentials/clonning github with ssh.md",
     "Untitled.md",
-    "Github Essentials/Commands in Github.md",
-    "Emacs/Emacs short-cut keys.md",
     "README.md",
     "Checks in/Learn more.md",
     "Web links/Ai link.md"

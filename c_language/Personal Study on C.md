@@ -1729,3 +1729,109 @@ int marks[5] = {4, 6, 3, 67, 5}
 arg(marks)
 }
 ```
+Function Pointers in c
+```c
+void fun(int a)
+{
+printf("value of a is %d\n",a);
+}
+//pointer
+int main()
+{
+void (*fun_ptr)(int) = &fun;
+(*fun_ptr)(10);
+return 0;
+}
+```
+The above function pointer can also be declared without the asterisk i.e
+```c
+void (*fun_ptr)(int) = fun;
+fun_ptr(10);
+return 0;
+```
+We can have an array of function pointers just like that of an array e.g
+```c
+#include <stdio.h>
+void add (int a, int b)
+{
+printf("Addition is %d\n", a + b);
+}
+void subtract(int a, int b)
+{
+printf("Subtraction is %d\n", a - b);
+}
+void multiply(int a, int b)
+{
+printf("Multiplication is %d\n", a * b)
+}
+
+int main()
+{
+void (*ptr_arr[])(int, int) = {add, subtract, multiply};
+unsigned int ch, a = 15, b = 10;
+printf("Enter choice: 0 for add, 1 for subtract, 2 for multiply");
+scanf("%d", &ch);
+if (ch > 2)
+return 0;
+(*ptr_arr[ch])(a, b);
+
+return 0;
+}
+```
+
+A function can be passed as an argument and can also be returned form a function. e.g
+```c
+#include <stdio.h>
+void fun1()
+{
+printf("fun1\n");
+}
+
+void fun2()
+{
+printf("fun2\n");
+}
+
+//at function pointer declaration
+void wrapper(void(*fun)())
+{
+fun();
+}
+
+int main()
+{
+wrapper(fun1);
+wrapper(fun2);
+
+return 0;
+}
+```
+This point in particular is very useful in C. In C, we can use function pointers to avoid code redundancy. For example a simple [qsort()](http://www.cplusplus.com/reference/cstdlib/qsort/) function can be used to sort arrays in ascending order or descending or by any other order in case of array of structures. Not only this, with function pointers and void pointers, it is possible to use qsort for any data type.
+```c
+#include <stdio.h>
+
+#include <stdlib.h>
+
+// A sample comparator function that is used`
+
+// for sorting an integer array in ascending order.`
+
+// To sort any array for any other data type and/or`
+
+// criteria, all we need to do is write more compare`
+
+// functions.  And we can use the same qsort()`
+
+int main()
+{
+int arr[] = {10, 5, 15, 12, 90, 80};
+int n = sizeof(arr)/sizeof(arr[0]), i;
+
+qsort (arr, n, sizeof(int), compare);
+
+for (i = 0; i < n; i++)
+printf("%d ", arr[i]);
+
+return 0;
+}
+```
