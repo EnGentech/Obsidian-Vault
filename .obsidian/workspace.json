@@ -92,6 +92,18 @@
             }
           },
           {
+            "id": "ae3262aeaca620a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "passport maker/Online site to resize pixel of a passport.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e6079b3a1842e99",
             "type": "leaf",
             "state": {
@@ -316,7 +328,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -382,7 +394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Github Essentials/clonning github with ssh.md",
+                "file": "passport maker/Online site to resize pixel of a passport.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -399,7 +411,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Github Essentials/clonning github with ssh.md",
+                "file": "passport maker/Online site to resize pixel of a passport.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -422,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Github Essentials/clonning github with ssh.md"
+                "file": "passport maker/Online site to resize pixel of a passport.md"
               }
             }
           }
@@ -444,10 +456,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4b4535fe0692279",
+  "active": "ae3262aeaca620a8",
   "lastOpenFiles": [
-    "Github Essentials/Commands in Github.md",
     "Github Essentials/clonning github with ssh.md",
+    "Github Essentials/Commands in Github.md",
     "Emacs/Emacs short-cut keys.md",
     "c_language/Personal Study on C.md",
     "HTML CSS/Cool Web animation.md",
