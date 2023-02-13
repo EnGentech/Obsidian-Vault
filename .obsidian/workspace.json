@@ -109,7 +109,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "Github Essentials/Commands in Github.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95ad18daad8d2360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "magic file in/School magic file.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baf9fcc4cac34ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/Visual settings in windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82b1f41dc6bca329",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "make my shell/Understanding concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -340,7 +376,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -406,7 +442,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "make my shell/Understanding concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -423,7 +459,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "make my shell/Understanding concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -446,7 +482,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "c_language/Personal Study on C.md"
+                "file": "make my shell/Understanding concepts.md"
               }
             }
           }
@@ -468,17 +504,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e53b17da010efb02",
+  "active": "82b1f41dc6bca329",
   "lastOpenFiles": [
-    "c_language/Introduction note.md",
+    "Untitled/Visual settings in windows.md",
+    "magic file in/School magic file.md",
     "Github Essentials/Commands in Github.md",
-    "Github Essentials/clonning github with ssh.md",
     "c_language/Personal Study on C.md",
+    "c_language/Introduction note.md",
+    "Github Essentials/clonning github with ssh.md",
     "My links/My links.md",
     "c_language/ALX projects.md",
     "passport maker/Online site to resize pixel of a passport.md",
-    "Emacs/Emacs short-cut keys.md",
-    "HTML CSS/Cool Web animation.md",
-    "Study Code/KeyGen alx pointer code.md"
+    "Emacs/Emacs short-cut keys.md"
   ]
 }
