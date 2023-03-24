@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/Visual settings in windows.md",
+                "file": "Visual Settings in Windows/Visual settings in windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,6 +146,78 @@
               "type": "markdown",
               "state": {
                 "file": "make my shell/Understanding concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87b78d3934639395",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Simple_Shell by Eric/Simple_Shell by Eric.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e4ef8b0e90fc1b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Simple_Shell by Eric/Simple_Shell by Eric.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67d275933848a82e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Code/KeyGen alx pointer code.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c0691c52f716aa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Language/Python Language.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b25e39ef69ea67d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML CSS/HTML contents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7c3d4153c355c8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML CSS/HTML NOTES.md",
                 "mode": "source",
                 "source": false
               }
@@ -376,7 +448,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -442,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "make my shell/Understanding concepts.md",
+                "file": "HTML CSS/HTML NOTES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -459,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "make my shell/Understanding concepts.md",
+                "file": "HTML CSS/HTML NOTES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -482,7 +554,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "make my shell/Understanding concepts.md"
+                "file": "HTML CSS/HTML NOTES.md"
               }
             }
           }
@@ -504,17 +576,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82b1f41dc6bca329",
+  "active": "a7c3d4153c355c8e",
   "lastOpenFiles": [
-    "Untitled/Visual settings in windows.md",
-    "magic file in/School magic file.md",
-    "Github Essentials/Commands in Github.md",
-    "c_language/Personal Study on C.md",
-    "c_language/Introduction note.md",
-    "Github Essentials/clonning github with ssh.md",
-    "My links/My links.md",
     "c_language/ALX projects.md",
-    "passport maker/Online site to resize pixel of a passport.md",
-    "Emacs/Emacs short-cut keys.md"
+    "Emacs/Emacs short-cut keys.md",
+    "HTML CSS/HTML NOTES.md",
+    "HTML CSS/HTML contents.md",
+    "Web links/Web dev. front and back end.md",
+    "Github Essentials/clonning github with ssh.md",
+    "Python Language/Python Language.md",
+    "Github Essentials/Commands in Github.md",
+    "Python Essentials/Untitled.md",
+    "Study Code/KeyGen alx pointer code.md",
+    "Python Language/Intro to Python Language.md",
+    "Simple_Shell by Eric/Simple_Shell by Eric.md",
+    "env built in/Env built in.md",
+    "make my shell/Understanding concepts.md",
+    "Visual Settings in Windows/Visual settings in windows.md",
+    "magic file in/School magic file.md"
   ]
 }
