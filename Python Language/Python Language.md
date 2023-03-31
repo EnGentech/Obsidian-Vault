@@ -11,3 +11,7 @@ video learning on youtube:  [(2) Learn to Program - YouTube](https://www.youtube
 python coding style: [pycodestyle · PyPI](https://pypi.org/project/pycodestyle/)
 
 Lambda: [4. Lambda Operator, filter, reduce and map | Advanced (python-course.eu)](https://python-course.eu/advanced-python/lambda-filter-reduce-map.php)
+
+complete tutorials: [Object Oriented Programming · HonKit (swaroopch.com)](https://python.swaroopch.com/oop.html)
+
+OOP: [1. Object Oriented Programming | OOP | python-course.eu](https://python-course.eu/oop/object-oriented-programming.php)

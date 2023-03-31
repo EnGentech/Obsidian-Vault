@@ -217,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML CSS/HTML NOTES.md",
+                "file": "Python Language/Python Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -514,7 +514,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML CSS/HTML NOTES.md",
+                "file": "Python Language/Python Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +531,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML CSS/HTML NOTES.md",
+                "file": "Python Language/Python Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -554,7 +554,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML CSS/HTML NOTES.md"
+                "file": "Python Language/Python Language.md"
               }
             }
           }
@@ -578,9 +578,9 @@
   },
   "active": "a7c3d4153c355c8e",
   "lastOpenFiles": [
+    "HTML CSS/HTML NOTES.md",
     "c_language/ALX projects.md",
     "Emacs/Emacs short-cut keys.md",
-    "HTML CSS/HTML NOTES.md",
     "HTML CSS/HTML contents.md",
     "Web links/Web dev. front and back end.md",
     "Github Essentials/clonning github with ssh.md",
