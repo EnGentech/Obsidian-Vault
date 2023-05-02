@@ -17,3 +17,5 @@ complete tutorials: [Object Oriented Programming · HonKit (swaroopch.com)](http
 OOP: [1. Object Oriented Programming | OOP | python-course.eu](https://python-course.eu/oop/object-oriented-programming.php)
 
 Doctest: [doctest — Testing Through Documentation — PyMOTW 3](https://pymotw.com/3/doctest/)
+
+Automate things in python: https://automatetheboringstuff.com/

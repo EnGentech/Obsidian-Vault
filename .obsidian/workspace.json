@@ -224,6 +224,30 @@
             }
           },
           {
+            "id": "d2f2bc9939dea873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web links/Links to python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3df96f5018f578c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tkinters/Beginning tkinters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e6079b3a1842e99",
             "type": "leaf",
             "state": {
@@ -448,7 +472,7 @@
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -514,7 +538,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Language/Python Language.md",
+                "file": "tkinters/Beginning tkinters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -531,7 +555,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Language/Python Language.md",
+                "file": "tkinters/Beginning tkinters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -554,7 +578,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Language/Python Language.md"
+                "file": "tkinters/Beginning tkinters.md"
               }
             }
           }
@@ -567,6 +591,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -575,15 +600,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7c3d4153c355c8e",
+  "active": "d3df96f5018f578c",
   "lastOpenFiles": [
+    "tkinters/tkinter_hello_world.py",
+    "Web links/Links to python.md",
+    "tkinters/Beginning tkinters.md",
+    "tkinters",
+    "Untitled/Web links and functions.md",
+    "Python Language/Python Language.md",
+    "Untitled",
     "HTML CSS/HTML NOTES.md",
     "c_language/ALX projects.md",
     "Emacs/Emacs short-cut keys.md",
     "HTML CSS/HTML contents.md",
     "Web links/Web dev. front and back end.md",
     "Github Essentials/clonning github with ssh.md",
-    "Python Language/Python Language.md",
     "Github Essentials/Commands in Github.md",
     "Python Essentials/Untitled.md",
     "Study Code/KeyGen alx pointer code.md",
