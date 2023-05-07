@@ -248,6 +248,18 @@
             }
           },
           {
+            "id": "60629d65f3a075b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tkinters/tkinter breakdown.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e6079b3a1842e99",
             "type": "leaf",
             "state": {
@@ -472,7 +484,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -517,6 +529,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "6718d1936528ca07",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -538,7 +558,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tkinters/Beginning tkinters.md",
+                "file": "tkinters/tkinter breakdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -555,7 +575,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tkinters/Beginning tkinters.md",
+                "file": "tkinters/tkinter breakdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -578,7 +598,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tkinters/Beginning tkinters.md"
+                "file": "tkinters/tkinter breakdown.md"
               }
             }
           }
@@ -600,17 +620,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3df96f5018f578c",
+  "active": "60629d65f3a075b7",
   "lastOpenFiles": [
+    "tkinters/Beginning tkinters.md",
+    "tkinters/tkinter breakdown.md",
+    "tkinters/first_program.py~",
+    "RegEx/RegEx.md",
+    "Python Language/Python Language.md",
+    "Networking/Networking notes.md",
+    "Networking",
+    "RegEx",
+    "tkinters/first_program.py",
+    "c_language/ALX projects.md",
     "tkinters/tkinter_hello_world.py",
     "Web links/Links to python.md",
-    "tkinters/Beginning tkinters.md",
     "tkinters",
     "Untitled/Web links and functions.md",
-    "Python Language/Python Language.md",
     "Untitled",
     "HTML CSS/HTML NOTES.md",
-    "c_language/ALX projects.md",
     "Emacs/Emacs short-cut keys.md",
     "HTML CSS/HTML contents.md",
     "Web links/Web dev. front and back end.md",
