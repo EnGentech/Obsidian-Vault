@@ -21,3 +21,11 @@ Doctest: [doctest — Testing Through Documentation — PyMOTW 3](https://pymotw
 Automate things in python: https://automatetheboringstuff.com/
 
 Quest for answers: www.pastebin.com
+
+\__init__.py meaning: [The '__init__.py' File: What Is It? How to Use It? (Complete Guide) (codingem.com)](https://www.codingem.com/what-is-init-py-file-in-python/)
+
+ cmd line interpreter: [The cmd standard library in python | Dustin John Pfister at github pages (dustinpfister.github.io)](https://dustinpfister.github.io/2021/02/22/python-standard-library-cmd/)
+
+cmd indept: [cmd – Create line-oriented command processors - Python Module of the Week (pymotw.com)](http://pymotw.com/2/cmd/)
+
+

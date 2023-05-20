@@ -1,0 +1,1 @@
+do_ is a bash initiation command from boss

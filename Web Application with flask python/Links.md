@@ -1,0 +1,3 @@
+video tutorials: [Creating a Simple Python Web Application With Flask and Testing Locally - Bing video](https://www.bing.com/videos/search?q=how+to+use+python+on+web+applications&docid=603506023956481522&mid=011D4D75EFD42652460B011D4D75EFD42652460B&view=detail&FORM=VIREHT)
+
+best teacher: [Web Forms With Flask - Python and Flask #4 - Bing video](https://www.bing.com/videos/search?&q=how+to+use+python+on+web+applications&docid=603506023956481522&mid=A80BAEF5A831AA5B915EA80BAEF5A831AA5B915E&view=detail&FORM=VDRVRV&ajaxhist=0)

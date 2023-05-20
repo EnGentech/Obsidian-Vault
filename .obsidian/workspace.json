@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c_language/Personal Study on C.md",
+                "file": "env built in/Env built in.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf3e03c33ed31239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML CSS/Project guide AirBnB clone.md",
                 "mode": "source",
                 "source": false
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML CSS/HTML contents.md",
+                "file": "HTML CSS/HTML links.md",
                 "mode": "source",
                 "source": false
               }
@@ -253,7 +265,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tkinters/tkinter breakdown.md",
+                "file": "Web Application with flask python/Links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccdc7b31e4666a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "READ_peers/Django vs flask as well as pyramid.md",
                 "mode": "source",
                 "source": false
               }
@@ -484,7 +508,7 @@
             }
           }
         ],
-        "currentTab": 20
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -558,7 +582,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tkinters/tkinter breakdown.md",
+                "file": "HTML CSS/Project guide AirBnB clone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -575,7 +599,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tkinters/tkinter breakdown.md",
+                "file": "HTML CSS/Project guide AirBnB clone.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -598,7 +622,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tkinters/tkinter breakdown.md"
+                "file": "HTML CSS/Project guide AirBnB clone.md"
               }
             }
           }
@@ -620,36 +644,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60629d65f3a075b7",
+  "active": "bf3e03c33ed31239",
   "lastOpenFiles": [
-    "tkinters/Beginning tkinters.md",
-    "tkinters/tkinter breakdown.md",
-    "tkinters/first_program.py~",
-    "RegEx/RegEx.md",
-    "Python Language/Python Language.md",
-    "Networking/Networking notes.md",
-    "Networking",
-    "RegEx",
-    "tkinters/first_program.py",
-    "c_language/ALX projects.md",
-    "tkinters/tkinter_hello_world.py",
-    "Web links/Links to python.md",
-    "tkinters",
-    "Untitled/Web links and functions.md",
-    "Untitled",
+    "HTML CSS/HTML links.md",
+    "HTML CSS/Project guide AirBnB clone.md",
+    "HTML CSS/More Syntax.md",
+    "Python Language/Len() function extended.md",
     "HTML CSS/HTML NOTES.md",
-    "Emacs/Emacs short-cut keys.md",
-    "HTML CSS/HTML contents.md",
-    "Web links/Web dev. front and back end.md",
-    "Github Essentials/clonning github with ssh.md",
-    "Github Essentials/Commands in Github.md",
-    "Python Essentials/Untitled.md",
+    "Web links/HTML CSS.md",
+    "SQL/LINKS.md",
+    "SQL/Command description.md",
+    "SQL/Basic commands to setup SQL.md",
+    "SQL/Basic Commands.md",
+    "SQL/SQl Constraint.md",
+    "SQL/MySQL grant statement.md",
+    "SQL/SQL CHEAT SHEET.md",
+    "VIM/Vim tutorial link.md",
+    "Untitled 1.md",
+    "VIM",
+    "Python Language/Unittest link and tutorial.md",
+    "SQL",
+    "Checks in/Learn more.md",
     "Study Code/KeyGen alx pointer code.md",
-    "Python Language/Intro to Python Language.md",
-    "Simple_Shell by Eric/Simple_Shell by Eric.md",
-    "env built in/Env built in.md",
-    "make my shell/Understanding concepts.md",
-    "Visual Settings in Windows/Visual settings in windows.md",
-    "magic file in/School magic file.md"
+    "Shell navigation/Basic commands.md",
+    "Najib guide/Understanding obsidian.md",
+    "Najib guide/Pandoc and conversion commands.md",
+    "Najib guide/Key to success in software engineering.md",
+    "c_language/Personal Study on C.md",
+    "Python_Library/cpython/Programs/_testembed.c",
+    "Python_Library/cpython/Programs/test_frozenmain.h",
+    "Python_Library/cpython/Programs/_freeze_module.py",
+    "Python_Library/cpython/Programs/_freeze_module.c",
+    "Python_Library/cpython/Programs/_bootstrap_python.c",
+    "Python_Library/cpython/Programs/test_frozenmain.py",
+    "Python_Library/cpython/Programs/README",
+    "Python_Library/cpython/Programs/python.c",
+    "Python_Library/cpython/Mac/BuildScript/resources/background.jpg",
+    "Python_Library/cpython/Tools/msi/bundle/SideBar.png",
+    "Python_Library/cpython/Tools/wasm/README.md",
+    "Python_Library/cpython/Tools/cases_generator/README.md",
+    "Python_Library/cpython/Tools/cases_generator/interpreter_definition.md",
+    "Python_Library/cpython/PC/icons/setup.svg",
+    "Python_Library/cpython/PC/icons/pythonx50.png",
+    "Python_Library/cpython/PC/icons/pythonx44.png",
+    "Python_Library/cpython/PC/icons/pythonx150.png",
+    "Python_Library/cpython/PC/icons/pythonwx44.png",
+    "Python_Library/cpython/PC/icons/pythonwx150.png",
+    "Python_Library/cpython/PC/icons/pythonw.svg",
+    "Python_Library/cpython/PC/icons/python.svg"
   ]
 }

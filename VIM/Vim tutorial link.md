@@ -1,0 +1,1 @@
+Lint for vim training: [How to Cut, Copy and Paste in Vim (phoenixnap.com)](https://phoenixnap.com/kb/cut-copy-paste-vim)
