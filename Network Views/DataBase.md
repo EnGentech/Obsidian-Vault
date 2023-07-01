@@ -1,0 +1,1 @@
+Note on Datebase: [What Is a Database | Oracle Kenya](https://www.oracle.com/ke/database/what-is-database/)

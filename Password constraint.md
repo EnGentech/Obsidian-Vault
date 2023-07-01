@@ -1,0 +1,1 @@
+link: [Fix - MySQL ERROR 1819 (HY000): Your password does not satisfy the current policy requirements - OSTechNix](https://ostechnix.com/fix-mysql-error-1819-hy000-your-password-does-not-satisfy-the-current-policy-requirements/)

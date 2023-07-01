@@ -1,0 +1,1 @@
+link: [In Introduction to HTTP Basics (ntu.edu.sg)](https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html)
