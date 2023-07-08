@@ -55,3 +55,18 @@ when you are done with that, restart the server with
 ```nginx
 sudo service nginx restart
 ```
+
+the html directory in nginx is found in 
+```nginx
+cd /var/www/html
+```
+
+link to .tech domain config
+```.tech
+https://controlpanel.tech/servlet/AuthServlet
+```
+
+## Copy files from local machine to server
+```terminal
+scp /home/username/my/file/to/copy.file derrik@ubuntu-desktop:/home/derrik/Desktop/
+```

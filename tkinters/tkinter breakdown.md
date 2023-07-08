@@ -23,7 +23,7 @@ mylabel.pack()
 Lastly we need to create a main loop, this process makes the program to loop continuously untill something is done either by a click or something.
 its defined thus
 ```python
-roo.mainloop()
+root.mainloop()
 ```
 Let combine all to make sense
 ```python

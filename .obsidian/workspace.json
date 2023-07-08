@@ -549,14 +549,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Language/Request.md",
+                "file": "Server_setup/configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1dacac82fd14a3e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server_setup/configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc2587d61fcdf235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server_setup/configuration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e279ff6840a1df0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Load Balancer HaProxy/SLL certificate.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 45
+        "currentTab": 48
       }
     ],
     "direction": "vertical"
@@ -585,7 +621,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "paranthesis",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -614,7 +650,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f391edb6b5a3a894",
@@ -630,7 +667,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Language/Request.md",
+                "file": "Load Balancer HaProxy/SLL certificate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -647,7 +684,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Language/Request.md",
+                "file": "Load Balancer HaProxy/SLL certificate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -670,15 +707,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Language/Request.md"
+                "file": "Load Balancer HaProxy/SLL certificate.md"
               }
             }
+          },
+          {
+            "id": "151a1864c35f6f3d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -692,17 +738,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b2d59af8079b068",
+  "active": "97ad1bf0830bbfee",
   "lastOpenFiles": [
+    "env built in/Env built in.md",
+    "Bash/SED command.md",
+    "Load Balancer HaProxy/SLL certificate.md",
+    "tkinters/tkinter breakdown.md",
+    "tkinters/Beginning tkinters.md",
+    "Web deployment/CI CD.md",
     "Python Language/URLlib.md",
+    "Python_Library/Shutill.md",
+    "Nginx/Issues arising.md",
+    "Web deployment",
+    "Untitled.md",
+    "Nginx",
+    "Server_setup/configuration.md",
+    "Load Balancer HaProxy/Load Balancer by HAproxy.md",
+    "Load Balancer HaProxy",
+    "Load Balancer.md",
+    "Untitled 1",
     "Python Language/Request.md",
     "HTTP/Curls flags.md",
     "HTTP/Important Codes.md",
     "HTTP/HTTP explained.md",
-    "Untitled",
     "Installing on terminal in windows/Install on terminal.md",
     "Installing on terminal in windows",
-    "Server_setup/configuration.md",
     "HTTP",
     "Bash/Good commands.md",
     "Bash",
@@ -710,30 +770,16 @@
     "Server_setup",
     "Python Language/ORM SQLAchemy.md",
     "Python Language/Full-Stack Python.md",
-    "tkinters/tkinter breakdown.md",
-    "tkinters/Beginning tkinters.md",
     "Python Language/Python Language.md",
     "Python Language/RE module (RegEx).md",
     "Password constraint.md",
     "WSL/link.md",
     "WSL",
-    "RegEx/RegEx.md",
-    "env built in/Env built in.md",
-    "Python Language/args and kwargs.md",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",
     "Pasted image 20230617165901.png",
     "Pasted image 20230617165824.png",
-    "SQL/SQL injections.md",
-    "SQL/Basic Commands.md",
-    "SQL/SQl Constraint.md",
-    "SQL/SQL CHEAT SHEET.md",
-    "SQL/MySQL grant statement.md",
-    "SQL/LINKS.md",
     "Css",
-    "Java_Script",
-    "Program_Concept",
-    "Network Views",
     "Python_Library/cpython/Mac/BuildScript/resources/background.jpg",
     "Python_Library/cpython/Tools/msi/bundle/SideBar.png",
     "Python_Library/cpython/PC/icons/setup.svg",
