@@ -585,7 +585,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Load Balancer HaProxy/SLL certificate.md",
+                "file": "Bash/Good commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -667,7 +667,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Load Balancer HaProxy/SLL certificate.md",
+                "file": "Bash/Good commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -684,7 +684,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Load Balancer HaProxy/SLL certificate.md",
+                "file": "Bash/Good commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -707,7 +707,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Load Balancer HaProxy/SLL certificate.md"
+                "file": "Bash/Good commands.md"
               }
             }
           },
@@ -738,16 +738,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97ad1bf0830bbfee",
+  "active": "7e279ff6840a1df0",
   "lastOpenFiles": [
+    "READ_peers/Django vs flask as well as pyramid.md",
+    "Python_Library/Shutill.md",
+    "Python_Library/cpython/Doc/_static/og-image.png",
+    "Networking/Networking notes.md",
+    "My links/My links.md",
+    "make my shell/Understanding concepts.md",
+    "Fontawesome/Web links and functions.md",
+    "Downloads/Sites for downloading.md",
+    "Css/Important.md",
+    "Checks in/Learn more.md",
+    "ALX materials/ALX materials.md",
+    "Installing on terminal in windows/Install on terminal.md",
+    "Load Balancer HaProxy/SSL certificate.md",
     "env built in/Env built in.md",
     "Bash/SED command.md",
-    "Load Balancer HaProxy/SLL certificate.md",
     "tkinters/tkinter breakdown.md",
     "tkinters/Beginning tkinters.md",
     "Web deployment/CI CD.md",
     "Python Language/URLlib.md",
-    "Python_Library/Shutill.md",
     "Nginx/Issues arising.md",
     "Web deployment",
     "Untitled.md",
@@ -760,20 +771,10 @@
     "Python Language/Request.md",
     "HTTP/Curls flags.md",
     "HTTP/Important Codes.md",
-    "HTTP/HTTP explained.md",
-    "Installing on terminal in windows/Install on terminal.md",
     "Installing on terminal in windows",
     "HTTP",
-    "Bash/Good commands.md",
     "Bash",
-    "SQL/SQLAlchemy.md",
     "Server_setup",
-    "Python Language/ORM SQLAchemy.md",
-    "Python Language/Full-Stack Python.md",
-    "Python Language/Python Language.md",
-    "Python Language/RE module (RegEx).md",
-    "Password constraint.md",
-    "WSL/link.md",
     "WSL",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",
@@ -784,7 +785,6 @@
     "Python_Library/cpython/Tools/msi/bundle/SideBar.png",
     "Python_Library/cpython/PC/icons/setup.svg",
     "Python_Library/cpython/PC/icons/pythonx50.png",
-    "Python_Library/cpython/PC/icons/pythonx44.png",
-    "Python_Library/cpython/PC/icons/pythonx150.png"
+    "Python_Library/cpython/PC/icons/pythonx44.png"
   ]
 }

@@ -28,3 +28,8 @@ backend www-backend
 Restart HAProxy:
 sudo systemctl restart haproxy.service
 
+## Force all http to https
+```haproxy
+redirect scheme https code 301 if !{ ssl_fc }
+```
+add the above line to front_end block
