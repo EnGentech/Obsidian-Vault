@@ -5,6 +5,11 @@ mysql -u root -p
 creatin a user statement
 ```sql
 CREATE USER 'username'@'host' IDENTIFIED WITH authentication_plugin BY 'password';
+
+# to check if user exist
+
+SELECT User, Host FROM mysql.user;
+
 ```
 After `CREATE USER`, you specify a username. This is immediately followed by an `@` sign and then the hostname from which this user will connect. If you only plan to access this user locally from your Ubuntu server, you can specify `localhost`. Wrapping both the username and host in single quotes isn’t always necessary, but doing so can help to prevent errors.
 

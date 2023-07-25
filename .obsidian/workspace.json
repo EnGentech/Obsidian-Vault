@@ -585,7 +585,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/Good commands.md",
+                "file": "Python Language/Request.md",
                 "mode": "source",
                 "source": false
               }
@@ -667,7 +667,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/Good commands.md",
+                "file": "Python Language/Request.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -684,7 +684,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/Good commands.md",
+                "file": "Python Language/Request.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -707,7 +707,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/Good commands.md"
+                "file": "Python Language/Request.md"
               }
             }
           },
@@ -724,8 +724,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -740,6 +739,23 @@
   },
   "active": "7e279ff6840a1df0",
   "lastOpenFiles": [
+    "API/REST API.md",
+    "Untitled 1.md",
+    "API",
+    "SQL/SQLAlchemy.md",
+    "SQL/SQL CHEAT SHEET.md",
+    "SQL/Replication.md",
+    "SQL/MySQL grant statement.md",
+    "SQL/Basic commands to setup SQL.md",
+    "SQL/Command description.md",
+    "SQL/Basic Commands.md",
+    "Web-framework/Flask.md",
+    "Web-framework/Link to synopsis.md",
+    "Bash/Good commands.md",
+    "Web-framework",
+    "env built in/Env built in.md",
+    "tkinters/tkinter breakdown.md",
+    "tkinters/Beginning tkinters.md",
     "READ_peers/Django vs flask as well as pyramid.md",
     "Python_Library/Shutill.md",
     "Python_Library/cpython/Doc/_static/og-image.png",
@@ -752,35 +768,18 @@
     "Checks in/Learn more.md",
     "ALX materials/ALX materials.md",
     "Installing on terminal in windows/Install on terminal.md",
-    "Load Balancer HaProxy/SSL certificate.md",
-    "env built in/Env built in.md",
-    "Bash/SED command.md",
-    "tkinters/tkinter breakdown.md",
-    "tkinters/Beginning tkinters.md",
-    "Web deployment/CI CD.md",
-    "Python Language/URLlib.md",
-    "Nginx/Issues arising.md",
     "Web deployment",
-    "Untitled.md",
     "Nginx",
-    "Server_setup/configuration.md",
-    "Load Balancer HaProxy/Load Balancer by HAproxy.md",
     "Load Balancer HaProxy",
-    "Load Balancer.md",
     "Untitled 1",
-    "Python Language/Request.md",
-    "HTTP/Curls flags.md",
-    "HTTP/Important Codes.md",
     "Installing on terminal in windows",
     "HTTP",
     "Bash",
     "Server_setup",
-    "WSL",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",
     "Pasted image 20230617165901.png",
     "Pasted image 20230617165824.png",
-    "Css",
     "Python_Library/cpython/Mac/BuildScript/resources/background.jpg",
     "Python_Library/cpython/Tools/msi/bundle/SideBar.png",
     "Python_Library/cpython/PC/icons/setup.svg",

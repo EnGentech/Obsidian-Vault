@@ -1,3 +1,4 @@
+link: [Python Tkinter Frame - Examples (tutorialkart.com)](https://www.tutorialkart.com/python/tkinter/frame/#gsc.tab=0)
 #### Introduction (First Program)
 Learning from CodeAcademy
 to use tkinter, import kinter
@@ -334,4 +335,19 @@ btn_plus.grid(row=5, column=0)
 btn_eq.grid(row=5, column=1, columnspan=2)  
   
 root.mainloop()
+```
+
+## Text align
+In tkinter, anchor is used to represent text alignment with the possible values to include
+```python
+- `"n"` for top alignment
+- `"s"` for bottom alignment
+- `"e"` for right alignment
+- `"w"` for left alignment
+- `"nw"` for top-left alignment
+- `"ne"` for top-right alignment
+- `"sw"` for bottom-left alignment
+- `"se"` for bottom-right alignment
+e.g
+anchor='w'
 ```
