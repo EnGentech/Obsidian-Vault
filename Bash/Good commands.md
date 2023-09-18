@@ -7,6 +7,21 @@ sed 's/fle/file/g' text
 
 ```
 
+kill stubborn running port
+```bash
+sudo kill $(sudo lsof -t -i:5000)
+```
+
+test nginx confix
+```bash
+sudo nginx -t
+```
+
+restart gunicorn
+```bash
+pgrep gunicorn | xargs kill -HUP
+```
+
 list all applications installed
 ```bash
 dpkg --list

@@ -325,7 +325,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Checks in/Learn more.md",
+                "file": "secret files/Secrets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a62d485a500388f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nginx/ssl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e636510e02056ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mega cloud/Link to web dev.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89d8beda54741217",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servers Host/List of Host Platforms.md",
                 "mode": "source",
                 "source": false
               }
@@ -585,14 +621,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flask/Tutorials sheet.md",
+                "file": "Python Language/Request.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf4de19568cc48ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fontawesome/Web links and functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 48
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -650,8 +698,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f391edb6b5a3a894",
@@ -667,7 +714,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Flask/Tutorials sheet.md",
+                "file": "Servers Host/List of Host Platforms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -684,7 +731,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Flask/Tutorials sheet.md",
+                "file": "Servers Host/List of Host Platforms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -707,7 +754,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Flask/Tutorials sheet.md"
+                "file": "Servers Host/List of Host Platforms.md"
               }
             }
           },
@@ -717,6 +764,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "1f7065647e11f6d5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -738,45 +795,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e279ff6840a1df0",
+  "active": "89d8beda54741217",
   "lastOpenFiles": [
-    "Flask/Flask docs.md",
+    "Python exercises/Links.md",
+    "Servers Host/List of Host Platforms.md",
+    "Servers Host",
+    "Python exercises",
+    "Mega cloud/Link to web dev.md",
+    "Mega cloud",
+    "Load Balancer HaProxy/SSL certificate.md",
+    "Nginx/ssl.md",
+    "Java_Script/Jquery.md",
+    "secret files/Secrets.md",
+    "secret files",
+    "Checks in/Learn more.md",
+    "Fontawesome/Web links and functions.md",
+    "trello/trello.md",
+    "Bash/Good commands.md",
+    "trello",
     "Flask/Tutorials sheet.md",
-    "Flask/Flask cheat sheet.md",
     "API/REST API.md",
+    "Python Language/ORM SQLAchemy.md",
+    "Python Language/Full-Stack Python.md",
+    "tkinters/Beginning tkinters.md",
+    "Web Application with flask python/Links.md",
+    "Java_Script/Reading from file.md",
+    "env built in/Env built in.md",
+    "Python Language/Request.md",
+    "Flask/Flask docs.md",
+    "Flask/Flask cheat sheet.md",
     "Web server vs Servers.md",
     "Python Language/URLlib.md",
     "Python Language/Unittest link and tutorial.md",
-    "Python Language/Request.md",
     "Python Language/RE module (RegEx).md",
-    "Python Language/Python Language.md",
-    "Python Language/ORM SQLAchemy.md",
-    "Python Language/Len() function extended.md",
-    "Python Language/Full-Stack Python.md",
-    "Python Language/args and kwargs.md",
-    "ALX materials/Shell redirection commands.md",
-    "ALX materials/Bash notes (commands).md",
-    "ALX materials/ALX materials.md",
-    "Checks in/Learn more.md",
-    "Python_Library/Shutill.md",
-    "Untitled.md",
     "Flask",
-    "Java_Script/Reading from file.md",
-    "Load Balancer HaProxy/Load Balancer by HAproxy.md",
-    "Untitled 1.md",
     "API",
-    "SQL/SQLAlchemy.md",
-    "SQL/SQL CHEAT SHEET.md",
-    "SQL/Replication.md",
     "Web-framework",
     "Python_Library/cpython/Doc/_static/og-image.png",
     "Web deployment",
     "Nginx",
-    "Load Balancer HaProxy",
-    "Untitled 1",
-    "Installing on terminal in windows",
-    "HTTP",
-    "Bash",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",
     "Pasted image 20230617165901.png",

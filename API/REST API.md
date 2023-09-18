@@ -147,4 +147,11 @@ app.run(debug=True)
 
 The above code will only be functional as at the moment it is running in an in-memory list to store our data which is only viewable via a session, once the session is over or closed, it resets hence the use of db for storage is essential.
 
+## Error Handling 
+```python
+@app.errorhandler(404)
+def err_handler(404):
+return {'error': "Not found"}, 404
+```
+
 ## Working with database
