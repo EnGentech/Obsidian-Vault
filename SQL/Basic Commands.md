@@ -90,6 +90,26 @@ mysql -u sammy -p
 
 The `-p` flag will cause the MySQL client to prompt you for your MySQL user’s password in order to authenticate.
 
+remove or uninstall mysql
+```mysql
+sudo apt-get remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+sudo apt-get autoremove
+sudo apt-get autoclean
+
+```
+
+install
+```mysql
+sudo apt-get update
+sudo apt-get install mysql-server
+
+```
+
+NO password during installation, try this but ensure you stop mysql from running
+```mysql
+sudo mysqld_safe --skip-grant-tables --skip-networking &
+
+```
 ## [Conclusion](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql#conclusion)[](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql#conclusion)
 
 By following this tutorial, you’ve learned how to add new users and grant them a variety of permissions in a MySQL database. From here, you could continue to explore and experiment with different permissions settings for your MySQL user, or you may want to learn more about some higher-level MySQL configurations.

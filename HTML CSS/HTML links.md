@@ -10,6 +10,9 @@ Guide through: [Learn to Code HTML & CSS (shayhowe.com)](https://learn.shayhowe.
 
 contribute to the link:  [CSS Zen Garden: The Beauty of CSS Design](http://www.csszengarden.com/)
 
+complete table of content for html: [HTML Standard (whatwg.org)](https://html.spec.whatwg.org/multipage/?utm_medium=email&_hsmi=76844617&_hsenc=p2ANqtz--nGosWfpj1_1efcHgKu8awZXTW8lmZqeuOrC8c1xb1SwqYRAeQ_Pidh--tvV4Zd6_Gw4DMcdX5Flh7RC_VjzP2S5azzg&utm_content=76844617&utm_source=hs_email)
+
+best=> guide on all tags and possible uses: [HTML Reference - A free guide to all HTML elements and attributes.](https://htmlreference.io/?utm_medium=email&_hsmi=76844617&_hsenc=p2ANqtz-8UASJxF8Zfu5XHmxNYx09YwlggvGN3cGjt2xpwucBmKpRoHRpFE-9iI94-gsofJDQErTdTwmi8rWQddn6_1ghM4J92og&utm_content=76844617&utm_source=hs_email)
 
 ## CSS Link
 Css style sheet: [Learn to style HTML using CSS - Learn web development | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Learn/CSS)
