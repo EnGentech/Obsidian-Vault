@@ -380,6 +380,18 @@
             }
           },
           {
+            "id": "c29d65fbf1dc07aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "redis/all commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ec1e5e9e6fb04ac7",
             "type": "leaf",
             "state": {
@@ -652,7 +664,7 @@
             }
           }
         ],
-        "currentTab": 30
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -726,7 +738,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mongodb/commands.md",
+                "file": "redis/all commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -743,7 +755,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mongodb/commands.md",
+                "file": "redis/all commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -766,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mongodb/commands.md"
+                "file": "redis/all commands.md"
               }
             }
           },
@@ -807,10 +819,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a607994906c941f4",
+  "active": "c29d65fbf1dc07aa",
   "lastOpenFiles": [
-    "mongodb/data_types.md",
+    "redis/commonly used commands.md",
+    "redis/all commands.md",
     "mongodb/commands.md",
+    "redis",
+    "mongodb/mongo regex.md",
+    "env built in/Env built in.md",
+    "mongodb/command link for mongodb.md",
+    "mongodb/data_types.md",
     "SQL/functions in sql.md",
     "mongodb",
     "SQL/procedure creation.md",
@@ -818,7 +836,6 @@
     "SQL/sql functions.md",
     "SQL/complete notes.md",
     "HTML CSS/HTML links.md",
-    "env built in/Env built in.md",
     "Python pdfs/Pandas for Everyone.pdf",
     "Python pdfs/all in.md",
     "Python pdfs/PythonNotesForProfessionals.pdf",
@@ -840,11 +857,6 @@
     "Mega cloud",
     "Load Balancer HaProxy/SSL certificate.md",
     "Nginx/ssl.md",
-    "Java_Script/Jquery.md",
-    "secret files/Secrets.md",
-    "secret files",
-    "Checks in/Learn more.md",
-    "Fontawesome/Web links and functions.md",
     "Python_Library/cpython/Doc/_static/og-image.png",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",

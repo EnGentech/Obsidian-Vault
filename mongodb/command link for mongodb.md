@@ -1,0 +1,1 @@
+link: [mongosh Methods — MongoDB Manual](https://www.mongodb.com/docs/manual/reference/method/)
