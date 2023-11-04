@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redis/all commands.md",
+                "file": "Visual basic.net/array methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -738,7 +738,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redis/all commands.md",
+                "file": "Visual basic.net/array methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -755,7 +755,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redis/all commands.md",
+                "file": "Visual basic.net/array methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redis/all commands.md"
+                "file": "Visual basic.net/array methods.md"
               }
             }
           },
@@ -821,8 +821,16 @@
   },
   "active": "c29d65fbf1dc07aa",
   "lastOpenFiles": [
-    "redis/commonly used commands.md",
+    "heroku/config.md",
+    "Visual basic.net/array methods.md",
+    "Visual basic.net",
+    "Python Language/Loggin.md",
+    "heroku",
+    "Flask/flask-babel.md",
+    "Python Language/unittest module functions.md",
+    "redis/command link.md",
     "redis/all commands.md",
+    "redis/commonly used commands.md",
     "mongodb/commands.md",
     "redis",
     "mongodb/mongo regex.md",
@@ -847,16 +855,8 @@
     "Python_Courses",
     "Python exercises/Links.md",
     "Python exercises/Characters.md",
-    "Python exercises/Pdf's.md",
-    "Python Language/Full-Stack Python.md",
     "beautiful design web page",
-    "Servers Host/List of Host Platforms.md",
     "Servers Host",
-    "Python exercises",
-    "Mega cloud/Link to web dev.md",
-    "Mega cloud",
-    "Load Balancer HaProxy/SSL certificate.md",
-    "Nginx/ssl.md",
     "Python_Library/cpython/Doc/_static/og-image.png",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",

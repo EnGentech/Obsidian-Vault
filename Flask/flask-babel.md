@@ -1,0 +1,1 @@
+link: [The Flask Mega-Tutorial Part XIII: I18n and L10n - miguelgrinberg.com](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
