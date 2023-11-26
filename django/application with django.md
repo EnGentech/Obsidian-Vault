@@ -37,8 +37,7 @@ first we create a function for rendering but for now lets use HttpRequest
 from django.shortcuts import render
 
 from django.http import HttpRequest
-
-  
+ 
 
 # Create your views here.
 
