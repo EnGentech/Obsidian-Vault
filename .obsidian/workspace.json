@@ -385,7 +385,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual basic.net/array methods.md",
+                "file": "django/application with django.md",
                 "mode": "source",
                 "source": false
               }
@@ -738,7 +738,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Visual basic.net/array methods.md",
+                "file": "django/application with django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -755,7 +755,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Visual basic.net/array methods.md",
+                "file": "django/application with django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -778,7 +778,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Visual basic.net/array methods.md"
+                "file": "django/application with django.md"
               }
             }
           },
@@ -821,10 +821,19 @@
   },
   "active": "c29d65fbf1dc07aa",
   "lastOpenFiles": [
-    "heroku/config.md",
-    "Visual basic.net/array methods.md",
-    "Visual basic.net",
     "Python Language/Loggin.md",
+    "Python Language/full docs.md",
+    "django/application with django.md",
+    "django/setup.md",
+    "bootstrap/classes.md",
+    "django",
+    "Visual basic.net/array methods.md",
+    "bootstrap",
+    "Photo_imaging/get bkg color code.md",
+    "env built in/Env built in.md",
+    "HTML CSS/HTML NOTES.md",
+    "heroku/config.md",
+    "Visual basic.net",
     "heroku",
     "Flask/flask-babel.md",
     "Python Language/unittest module functions.md",
@@ -834,7 +843,6 @@
     "mongodb/commands.md",
     "redis",
     "mongodb/mongo regex.md",
-    "env built in/Env built in.md",
     "mongodb/command link for mongodb.md",
     "mongodb/data_types.md",
     "SQL/functions in sql.md",
@@ -848,15 +856,7 @@
     "Python pdfs/all in.md",
     "Python pdfs/PythonNotesForProfessionals.pdf",
     "Python pdfs",
-    "Java_Script/promise.md",
-    "Java_Script/classes.md",
-    "Python_Courses/links.md",
-    "Python exercises/youtubeChannels.md",
     "Python_Courses",
-    "Python exercises/Links.md",
-    "Python exercises/Characters.md",
-    "beautiful design web page",
-    "Servers Host",
     "Python_Library/cpython/Doc/_static/og-image.png",
     "Pasted image 20230617185818.png",
     "Pasted image 20230617185531.png",

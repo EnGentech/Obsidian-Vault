@@ -1,5 +1,7 @@
 video link: [(31) Python Tutorial: Logging Basics - Logging to Files, Setting Levels, and Formatting - YouTube](https://www.youtube.com/watch?v=-ARI4Cz-awo)
 
+real_python link: [Logging in Python – Real Python](https://realpython.com/python-logging/)
+
 formatter values:
 Here is the information you provided formatted in a table markup language:
 

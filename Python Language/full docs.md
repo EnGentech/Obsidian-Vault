@@ -1,0 +1,1 @@
+[Python Validation - Javatpoint](https://www.javatpoint.com/python-validation)
